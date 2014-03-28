@@ -1,5 +1,6 @@
 @import "bootstrap";
-@import url('//fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&subset=latin,cyrillic-ext');
+@import "bootstrap-responsive";
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&subset=latin,cyrillic-ext');
 body { padding-top: 0px;	background: url('bg.jpg') no-repeat center center fixed;
 font-family: 'Ubuntu Mono';
     -webkit-background-size: cover;
@@ -30,6 +31,6 @@ color: white;
 }
 .content {
   color: white;
-  
+
 }
-@import "bootstrap-responsive";
+
