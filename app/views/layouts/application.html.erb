@@ -5,7 +5,7 @@
     <title><%= content_for?(:title) ? yield(:title) : "psyfog gallery" %></title>
     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Rails3 Bootstrap Devise Cancan" %>">
     <%= stylesheet_link_tag "application", :media => "all" %>
-    <%= stylesheet_link_tag "application", 'https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&subset=latin,cyrillic-ext', :media => "all" %>
+    <%= stylesheet_link_tag "application", 'https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
     <%= yield(:head) %>
