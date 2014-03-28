@@ -1,9 +1,8 @@
-<div class="row-fluid">
-<div class="span2">
-Previous
-</div>
-<div class="span8">
 <!--Body content-->
+<div class="row" style="border-style:solid;
+border-width:15px;border-bottom-width: 0px; border-color: rgba(0,255,255,0.2);">
+	<div class="span4"></div>
+	<div class="span4">
 <h2>Sign in</h2>
 <%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => {:class => 'form-vertical' }) do |f| %>
   <%= f.input :email, :autofocus => true %>
@@ -12,9 +11,6 @@ Previous
   <%= f.button :submit, "Sign in", :class => 'btn-primary' %>
 <% end %>
 <%= render "devise/shared/links" %>
-
-</div>
-<div class="span2">
-next
-</div>
+</div>	
+	<div class"span4"></div>
 </div>

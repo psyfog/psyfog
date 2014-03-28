@@ -19,18 +19,37 @@
       </nav>
     </div>
         <div id="main" role="main">
-      <div class="container-fluid" style="background-color: rgba(0,0,0,0.4);">
-        <div class="content-fluid" style="background-color: rgba(0,0,0,0.6);">
+      <div class="container">
+        <div class="content" style="background-color: rgba(0,0,0,0.4);">
            <div class="row">
-            <div class="span4">
+            <div class="span2"></div>
+            <div class="span8"><div class"division-left" style="border-right: 1px dashed #00ffff;">
               <%= render 'layouts/messages' %>
               <%= yield %>
             </div>
+            </div>
+            <div class="span2" style="background-color: rgba(0,255,255,0.2);"><div class="division-right">Reklama</div></div>
           </div>
-          <footer>
+
+<footer style="">
+            <div class="row"><div class="span5"></div>
+            <div class="span2">новая строка </div><div class="span5"></div>
+          </div>
+            <div class="row">
+              <div class="span2"><p><i class="icon-fire"></i>PSYFOG</p>
+                                 <p>Web-design</p></div>
+              <div class="span2"><p>_</p><p>_</p></div>
+              <div class="span2"><p>Facebook</p>
+                                 <p>Vk.com</p></div>
+              <div class="span2">
+                                 <p>Github</p>
+                                 <p>Freelance</p>
+              </div>
+            </div>
           </footer>
         </div>
       </div> <!--! end of .container -->
-    </div> <!--! end of #main -->
+    </div>
+         <!--! end of #main -->
   </body>
 </html>
